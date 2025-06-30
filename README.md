@@ -1,5 +1,3 @@
-# README.md
-
 ## 📄 Project Overview
 
 This repository implements a full pipeline for analyzing fan conversations on OnlyFans. The solution includes segmentation, feature extraction, profiling, embedding, clustering, and visualization — all containerized with Docker for reproducibility.
