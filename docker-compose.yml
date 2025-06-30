@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  analytics:
+    build: .
+    container_name: onlyfans_analytics
+    volumes:
+      - .:/app
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - VOYAGE_API_KEY=${VOYAGE_API_KEY}
+    command: bash scripts/run_pipeline.sh
